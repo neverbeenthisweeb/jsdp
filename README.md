@@ -7,7 +7,7 @@ These design patterns are based on what included in [Head First Design Patterns]
 Please note the following points:
 - We do [duck typing](https://stackoverflow.com/questions/4205130/what-is-duck-typing)
 - We are happy to have PRs (either a fix or addition of another design patterns)
-- We code with Node.js v16.4.2
+- We code with Node.js v16.4.2 with app.js as the entry point of each patterns (`node app.js`)
 
 ### Design Patterns
 - [x] Strategy

@@ -16,7 +16,7 @@ Please note the following points:
 -   [x] Observer
 -   [x] Decorator
 -   [x] Simple Factory
--   [ ] Factory Method
+-   [x] Factory Method
 -   [ ] Abstract Factory
 -   [ ] Singleton
 -   [ ] Command

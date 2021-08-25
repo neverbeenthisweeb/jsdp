@@ -17,7 +17,7 @@ Please note the following points:
 -   [x] Decorator
 -   [x] Simple Factory
 -   [x] Factory Method
--   [ ] Abstract Factory
+-   [x] Abstract Factory
 -   [ ] Singleton
 -   [ ] Command
 -   [ ] Adapter

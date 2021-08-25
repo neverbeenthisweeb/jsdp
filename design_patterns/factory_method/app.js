@@ -1,7 +1,11 @@
 const factory = require('./factory.js');
 
+function operateTransport(transportFactory) {
+	transportFactory.operate();
+}
+
 const truckFactory = new factory.TruckFactory();
-truckFactory.operate();
+operateTransport(truckFactory);
 
 const planeFactory = new factory.PlaneFactory();
-planeFactory.operate();
+operateTransport(planeFactory);

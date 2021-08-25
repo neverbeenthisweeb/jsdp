@@ -1,18 +1,20 @@
+const config = require('./config.js');
 const pizza = require('./pizza.js');
 
 class SimplePizzaFactory {
 	constructor() {}
 
-	createJakartaPizza() {
-		return new pizza.JakartaPizza();
-	}
-
-	createSurabayaPizza() {
-		return new pizza.SurabayaPizza();
-	}
-
-	createMalangPizza() {
-		return new pizza.MalangPizza();
+	createPizza(pizzaType) {
+		switch (pizzaType) {
+			case config.pizzaTypes.jakarta:
+				return new pizza.JakartaPizza();
+			case config.pizzaTypes.surabaya:
+				return new pizza.SurabayaPizza();
+			case config.pizzaTypes.malang:
+				return new pizza.MalangPizza();
+			default:
+				throw new Error('invalid pizza type');
+		}
 	}
 }
 

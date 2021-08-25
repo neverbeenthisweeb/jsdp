@@ -1,19 +1,23 @@
 const factory = require('./factory.js');
 const config = require('./config.js');
 
+function preparePizza(pizza) {
+	pizza.prepare();
+}
+
 const simpleFactory = new factory.SimplePizzaFactory();
 
 // prepare Jakarta pizza
 const jktPizza = simpleFactory.createPizza(config.pizzaTypes.jakarta);
-jktPizza.prepare();
+preparePizza(jktPizza);
 
 // prepare Surabaya pizza
 const sbyPizza = simpleFactory.createPizza(config.pizzaTypes.surabaya);
-sbyPizza.prepare();
+preparePizza(sbyPizza);
 
 // prepare Malang pizza
 const mlgPizza = simpleFactory.createPizza(config.pizzaTypes.malang);
-mlgPizza.prepare();
+preparePizza(mlgPizza);
 
 // prepare invalid pizza
 try {

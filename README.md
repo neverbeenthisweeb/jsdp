@@ -15,7 +15,9 @@ Please note the following points:
 -   [x] Strategy
 -   [x] Observer
 -   [x] Decorator
--   [ ] Factory
+-   [x] Simple Factory
+-   [ ] Factory Method
+-   [ ] Abstract Factory
 -   [ ] Singleton
 -   [ ] Command
 -   [ ] Adapter

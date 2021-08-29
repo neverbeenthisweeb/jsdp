@@ -18,7 +18,7 @@ Please note the following points:
 -   [x] Simple Factory
 -   [x] Factory Method
 -   [x] Abstract Factory
--   [ ] Singleton
+-   [x] Singleton
 -   [ ] Command
 -   [ ] Adapter
 -   [ ] Facade
